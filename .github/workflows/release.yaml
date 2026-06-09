@@ -48,6 +48,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # 需要在仓库主页的 settings 中配置
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_CONFIG_PM_ON_FAIL: ignore  # ignore npm check devEngines
           # 如果需要自动发布到 npm 仓库, 请取消注释
           # 注意修改 .releaserc.js 中的 `npmPublish` 字段的值为 true
