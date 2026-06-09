@@ -22,9 +22,9 @@ import {type S3Config} from "s3clientjs";
   const s3 = new S3Storage({
     endpoint: "http://127.0.0.1:9000",
     region: "cn",
-    bucket: "example",
-    accessKeyId: "rustfsadmin",
-    secretAccessKey: "rustfsadmin",
+    bucket: "example",              // 注意这个 bucket 必须存在
+    accessKeyId: "rustfsadmin",     // 注意这是登录用户名
+    secretAccessKey: "rustfsadmin", // 这是登录密码
     skipBackupFile: true,
   } as S3Config);
 
