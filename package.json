@@ -1,6 +1,6 @@
 {
   "name": "s3clientjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "aws-sdk/client-s3 compactible to aliyun-oss-sdk",
   "packageManager": "pnpm@11.5.2",
   "keywords": [
